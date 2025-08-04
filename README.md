@@ -63,12 +63,14 @@ This portfolio was built from scratch during the **PLP July 2025 Hackathon** to 
 
 ## 📂 File Structure
 plp-portfolio/
-│
 ├── index.html # Main HTML file with full structure
-├── styles.css # Complete CSS styling and animations
-├── image/profile.jpg # Profile photo
-├── files/Resume.pdf # Downloadable CV
-└── README.md # This file
+├── styles.css  # Complete CSS styling and animations
+├── image/
+│   └── profile.jpg   # Profile photo
+├── files/
+│   └── Resume.pdf  # Downloadable CV
+├── README.md
+└── LICENSE
 
 ---
 
@@ -138,6 +140,7 @@ This project followed a structured workflow to ensure quality and performance:
 
 > **Built with passion, precision, and pure CSS magic.**  
 > — Mahteme Girma, Data Analyst & Full Stack Developer
+
 
 
 
