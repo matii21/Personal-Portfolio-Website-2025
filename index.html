@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!-- Declares this document as HTML5 for modern browser compatibility -->
+<html lang="en">
+<!-- Sets the primary language to English for accessibility -->
+
+<head>
+    <!-- Metadata and resource links for the document -->
+    <meta charset="UTF-8">
+    <!-- Specifies character encoding to support international characters -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures proper responsive design on mobile devices -->
+    
+    <meta name="description" content="Portfolio of Mahteme Girma - Data Analyst & Full Stack Developer">
+    <!-- SEO description that appears in search engine results -->
+    
+    <meta name="keywords" content="developer, portfolio, web development">
+    <!-- Keywords for search engine optimization (less important now) -->
+    
+    <title>Alex Girma | Data Analyst & Full Stack Developer</title>
+    <!-- Browser tab title and bookmark label -->
+    
+    <link rel="stylesheet" href="styles.css">
+    <!-- Links to the external CSS file for styling -->
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    <!-- Inline SVG favicon showing a rocket emoji -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Imports custom fonts from Google Fonts -->
+</head>
+
+<body>
+    <!-- Main content area of the webpage -->
+    
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Accessibility feature for keyboard users to skip navigation -->
+    
+    <!-- Decorative floating background shapes -->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+    
+    <header class="header">
+        <!-- Fixed navigation header at the top of the page -->
+        <div class="container">
+            <div class="header-content">
+                <!-- Profile picture in the header -->
+                <div class="profile-picture">
+                    <img src="/image/profile.jpg" alt="Mahteme Girma">
+                    <!-- Profile image with alt text for accessibility -->
+                </div>
+                
+                <a href="#" class="logo">Mahteme Girma</a>
+                <!-- Brand/logo element linking to homepage -->
+            </div>
+            
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <!-- Navigation menu with accessibility attributes -->
+                <ul class="nav-list">
+                    <!-- Navigation links to different sections -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <!-- Mobile menu toggle button with accessibility attributes -->
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Main content area with accessibility landmark -->
+        
+        <section class="hero">
+            <!-- Hero section with introductory content -->
+            <div class="hero-background">
+                <!-- Animated background particles -->
+                <div class="hero-particle particle-1"></div>
+                <div class="hero-particle particle-2"></div>
+                <div class="hero-particle particle-3"></div>
+                <div class="hero-particle particle-4"></div>
+            </div>
+            
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <!-- Animated title elements -->
+                        <span class="highlight">Data Analyst</span> | 
+                        <span class="highlight">Full Stack Developer</span> 
+                    </h1>
+                    
+                    <p class="hero-subtitle">Transforming Data into Insights, Building Digital Experiences</p>
+                    <!-- Subtitle describing your profession -->
+                    
+                    <div class="hero-buttons">
+                        <!-- Call-to-action buttons -->
+                        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <!-- 3D rotating cube visualization -->
+                    <div class="hero-cube">
+                        <div class="cube-face front">SQL</div>
+                        <div class="cube-face back">PostgreSQL</div>
+                        <div class="cube-face right">Python</div>
+                        <div class="cube-face left">Power BI</div>
+                        <div class="cube-face top">API</div>
+                        <div class="cube-face bottom">Docker</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <!-- About section with personal information -->
+            <div class="container">
+                <h2 class="section-title">About<span> Me</h2>
+                <!-- Section heading -->
+                
+                <div class="about-content">
+                    <div class="profile-container">
+                        <div class="profile-wrapper">
+                            <img src="image/profile.jpg" alt="Mahteme Girma" class="profile-image">
+                            <!-- Profile image with hover effect -->
+                            <div class="profile-overlay">
+                                <span class="profile-text">Data Analyst & Full Stack Developer</span>
+                            </div>
+                        </div>
+                        
+                        <a href="/files/Resume.pdf" class="btn btn-download" download>Download CV</a>
+                        <!-- Downloadable resume button -->
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="about-grid">
+                            <!-- Interactive flip cards with personal information -->
+                            <div class="about-card card-1">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        <h3>My Story</h3>
+                                        <div class="card-icon">📖</div>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>From analyzing data to building it now I craft full-stack apps with an analyst’s mindset</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="about-card card-2">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        <h3>My Approach</h3>
+                                        <div class="card-icon">🎯</div>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>I believe in creating experiences that are not just functional, but emotionally engaging.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="about-card card-3">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        <h3>My Passion</h3>
+                                        <div class="card-icon">❤️</div>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>Transforming complex problems into intuitive, beautiful solutions that users love.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-stats">
+                            <!-- Statistics about your experience -->
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">1+</div>
+                                <div class="stat-label">Years</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">12</div>
+                                <div class="stat-label">Skills</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">Clients</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-gradient">
+            <!-- Skills section showcasing technical abilities -->
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                
+                <div class="skills-container">
+                    <div class="radial-skills">
+                        <!-- Radial charts showing skill proficiency -->
+                        <div class="radial-chart html-chart">
+                            <div class="radial-inner">
+                                <div class="radial-circle">
+                                    <div class="radial-mask">
+                                        <div class="radial-fill"></div>
+                                    </div>
+                                    <div class="radial-inset">
+                                        <div class="radial-number">95%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="radial-label">HTML/CSS</div>
+                        </div>
+                        
+                        <div class="radial-chart js-chart">
+                            <div class="radial-inner">
+                                <div class="radial-circle">
+                                    <div class="radial-mask">
+                                        <div class="radial-fill"></div>
+                                    </div>
+                                    <div class="radial-inset">
+                                        <div class="radial-number">85%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="radial-label">JavaScript</div>
+                        </div>
+                        
+                        <div class="radial-chart design-chart">
+                            <div class="radial-inner">
+                                <div class="radial-circle">
+                                    <div class="radial-mask">
+                                        <div class="radial-fill"></div>
+                                    </div>
+                                    <div class="radial-inset">
+                                        <div class="radial-number">90%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="radial-label">UI/UX Design</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-list">
+                        <!-- Categorized skill tags -->
+                        <div class="skill-category">
+                             <h3>Data Analysis</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">NumPy</span>
+                                <span class="skill-tag">Statistics</span>
+                                <span class="skill-tag">Data Mining</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Data Visualization</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Tableau</span>
+                                <span class="skill-tag">Power BI</span>
+                                <span class="skill-tag">Matplotlib</span>
+                                <span class="skill-tag">D3.js</span>
+                                <span class="skill-tag">Plotly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-category">
+                            <h3>Frontend Development</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend Development</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Express</span>
+                                <span class="skill-tag">Python Flask</span>
+                                <span class="skill-tag">RESTful APIs</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <!-- Projects section showcasing your work -->
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                
+                <div class="projects-filters">
+                    <!-- Project category filters -->
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project cards with details -->
+                    <div class="project-card" data-category="frontend">
+                        <div class="project-tilt">
+                            <div class="project-image gradient-1"></div>
+                            <div class="project-content">
+                                <h3>Interactive Dashboard</h3>
+                                <p>Modern analytics dashboard with real-time data visualization and custom widgets.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small">Case Study</a>
+                                    <a href="#" class="btn btn-small btn-outline">Prototype</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="design">
+                        <div class="project-tilt">
+                            <div class="project-image gradient-2"></div>
+                            <div class="project-content">
+                                <h3>Portfolio Challenge</h3>
+                                <p>A responsive portfolio website built with pure HTML/CSS for the 2025 PLP Hackathon..</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">Responsive</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small">Live Demo</a>
+                                    <a href="#" class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-tilt">
+                            <div class="project-image gradient-3"></div>
+                            <div class="project-content">
+                                <h3>Social Media App</h3>
+                                <p>Full-stack social platform with real-time messaging and media sharing.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small">Live Demo</a>
+                                    <a href="#" class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section bg-light">
+            <!-- Experience section with timeline layout -->
+            <div class="container">
+                <h2 class="section-title">Experience & Education</h2>
+                
+                <div class="timeline-container">
+                    <div class="timeline-path"></div>
+                    <!-- Animated timeline path -->
+                    
+                    <!-- Work experience items -->
+                    <div class="timeline-item left">
+                        <div class="timeline-content work-experience">
+                            <div class="timeline-date">July 2025 - Present</div>
+                            <div class="timeline-badge">💼</div>
+                            <h3>Co-Founder & CEO</h3>
+                            <h4>Warka Insight</h4>
+                            <p>Leading technology strategy and development for a tech startup focused on innovative solutions. Managing technical team and driving product development.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">Leadership</span>
+                                <span class="tag">Product Development</span>
+                                <span class="tag">Team Management</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item right">
+                        <div class="timeline-content work-experience">
+                            <div class="timeline-date">Sep 2024 - May 2025</div>
+                            <div class="timeline-badge">💼</div>
+                            <h3>Frontend Developer</h3>
+                            <h4>RiseAddis Consultancy</h4>
+                            <p>Builds the user-facing part of websites and applications, turning design concepts into interactive and functional user interfaces.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item left">
+                        <div class="timeline-content work-experience">
+                            <div class="timeline-date">April 2023 - August 2024</div>
+                            <div class="timeline-badge">💼</div>
+                            <h3>Freelance Web Developer</h3>
+                            <h4>Upwork</h4>
+                            <p>Provided web development services to clients worldwide. Specialized in responsive design, user experience optimization, and performance improvements.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">Freelancing</span>
+                                <span class="tag">Client Relations</span>
+                                <span class="tag">Performance</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item right">
+                        <div class="timeline-content work-experience">
+                            <div class="timeline-date">July 2022 - March 2023</div>
+                            <div class="timeline-badge">💼</div>
+                            <h3>Frontend Developer</h3>
+                            <h4>RiseAddis Advisory</h4>
+                            <p>Developing cutting-edge web applications with focus on performance and user experience.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Performance</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education items -->
+                    <div class="timeline-item left">
+                        <div class="timeline-content education">
+                            <div class="timeline-date">2023</div>
+                            <div class="timeline-badge">🎓</div>
+                            <h3>UX Design Certificate</h3>
+                            <h4>Interaction Design Foundation</h4>
+                            <p>Completed advanced UX design program focusing on user research and interaction design.</p>
+                            <div class="certificate-badge">
+                                <span class="cert-icon">🏆</span>
+                                <span class="cert-text">Certified UX Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item right">
+                        <div class="timeline-content education">
+                            <div class="timeline-date">2022</div>
+                            <div class="timeline-badge">🎓</div>
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <h4>KMU(Kotebe Metropolitn University)</h4>
+                            <p>Specialized in machine learning, statistical analysis, and big data technologies with a focus on business applications.</p>
+                            <div class="timeline-stats">
+                                <div class="stat">
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">2+</div>
+                                    <div class="stat-label">Projects</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <!-- Contact section with form and information -->
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Create Something Amazing</h3>
+                        <p>Have a project in mind or want to discuss a collaboration? Feel free to reach out.</p>
+                        
+                        <div class="contact-details">
+                            <!-- Contact information with icons -->
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <span>mahteme.girma@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📱</span>
+                                <span>+251-929-905-541</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span>Addis Ababa, Ethiopia</span>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <!-- Social media links with active URLs -->
+                            <a href="https://github.com/matii21" target="_blank" class="social-link">
+                                <span class="social-icon">🐙</span>
+                                <span class="social-text">GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mahteme-girma-71bba7107/" target="_blank" class="social-link">
+                                <span class="social-icon">💼</span>
+                                <span class="social-text">LinkedIn</span>
+                            </a>
+                            <a href="https://twitter.com/mahtemegirma" target="_blank" class="social-link">
+                                <span class="social-icon">🐦</span>
+                                <span class="social-text">Twitter</span>
+                            </a>
+                            <a href="https://instagram.com/mahtemegirma" target="_blank" class="social-link">
+                                <span class="social-icon">📸</span>
+                                <span class="social-text">Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <!-- Contact form with floating labels -->
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <!-- Submit button -->
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Footer with copyright and navigation -->
+        <div class="wave"></div>
+        <!-- Decorative wave animation -->
+        
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Mahteme Girma 2025. All rights reserved.</p>
+                <!-- Copyright notice -->
+                
+                <div class="footer-links">
+                    <!-- Quick navigation links -->
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
